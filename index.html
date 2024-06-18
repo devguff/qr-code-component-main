@@ -10,19 +10,54 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
+    .attribution { 
+      font-size: 20px; 
+      
+    }
+    
     .attribution a { color: hsl(228, 45%, 44%); }
+    
+    .qr-card {
+      text-align: center;
+      border: 1px solid;
+      width: 350px;
+      border-radius: 3%;
+    }
+
+    #qr-code {
+      width: 300px;
+      padding: 30px;
+      border-radius: 10%;
+    }
+
+    body {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
   </style>
 </head>
 <body>
 
-  Improve your front-end skills by building projects
+  <div class="qr-card">
+    <div class="qr-code-container">
+      <img id="qr-code" src="./images/image-qr-code.png" alt="qr code">
+    </div>
+    <h1 class="qr-title">Improve your front-end skills by building projects</h1>
+    <p class="qr-description">
+      Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+    </p>
+  </div>
 
-  Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+  
+
+  
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Matthew McGuff</a>.
   </div>
 </body>
 </html>
