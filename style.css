@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap');
+
+
+:root {
+    --card-background-color: hsl(0, 0%, 100%);
+    --common-background-color: hsl(212, 45%, 89%);
+    --primary-font-color: hsl(218, 44%, 22%);
+    --secondary-font-color: hsl(220, 15%, 55%);
+    --p-font-size: 15px;
+    --link-font-color: var(--secondary-font-color);
+    --primary-font-family: "Outfit", sans-serif;
+    --primary-font-size: 20px;
+}
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--background-color);
+    color: white;
+    text-align: center;
+    font: 20px;
+}
+
+.footer a {
+    color: var(--link-font-color);
+}
+
+.qr-card {
+    text-align: center;
+    border: 1px solid var(--background-color);
+    width: 350px;
+    border-radius: 3%;
+    color: var(--background-color);
+    background-color: white;
+    padding: 15px;
+    max-width: 255px;
+    min-width: 255px;
+}
+
+#qr-code {
+    width: 250px;
+    border-radius: 10%;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--common-background-color);
+    font-family: var(--primary-font-family);
+}
+
+.qr-title {
+    color: var(--primary-font-color);
+    font-size: var(--primary-font-size);
+    font-weight: bold;
+}
+
+.qr-description {
+    color: var(--secondary-font-color);
+    font-size: var(--p-font-size);
+}
